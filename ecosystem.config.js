@@ -12,7 +12,7 @@ module.exports = {
       key: '~/.ssh/code-connection.pem',
       ref: 'origin/master',
       repo: 'git@github.com:madeleinewoodbury/code-connection-server.git',
-      path: '/home/ubuntu/code-connection-server',
+      path: '/home/ubuntu/code-connection',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
